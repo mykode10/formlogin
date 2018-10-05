@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vindi.formlogin.LoginActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/gradiant">
+
+
+
+    <EditText
+    android:id="@+id/text"
+    android:text="Alila Manggis, Bali
+
+    Hotel ini memiliki restoran, spa, dan beragam kamar yang menampilkan pemandangan laut. Layanan antar-jemput terjadwal gratis disediakan untuk kawasan Candi Dasa"
+
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/text"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_below="@id/text"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/wallpaper"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:text="Exit"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnExit" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text"
+        android:layout_alignBottom="@+id/btnExit"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginBottom="70dp" />
+
+</RelativeLayout>

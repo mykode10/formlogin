@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+
+    <string name="title">Alila Manggis, Bali</string>
+    <string name="description">Alila Manggis berlokasi di tengah-tengah kebun kelapa dan berjarak 4 km dari Teluk Padangbai. Hotel ini memiliki restoran, spa, dan beragam kamar yang menampilkan pemandangan laut. Layanan antar-jemput terjadwal gratis disediakan untuk kawasan Candi Dasa.</string>
+</resources>
